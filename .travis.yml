@@ -11,11 +11,3 @@ before_script:
 
 script:
   - yarn run test
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: demo
-  on:
-    branch: master

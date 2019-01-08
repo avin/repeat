@@ -49,7 +49,7 @@ repeatAction.stop();
 * `stop()` - Stop repeat actions.
 * `pause()` - Pause repeat actions (without reset counter and don't touch firstTimeRun flag).
 * `resume()` - Resume repeating after pause.
-* `updateDelay(newDelay)` - Update option delay value.
+* `updateDelay(newDelay)` - Update option delay value without restart (update with next tick).
 
 ## License
 
