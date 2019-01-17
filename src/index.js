@@ -25,7 +25,7 @@ class Repeat {
             throw new Error('Options action is required!');
         }
 
-        if (!options.delay) {
+        if (!options.delay && options.delay !== 0) {
             throw new Error('Options delay is required!');
         }
     }
